@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [SimpleData.cs](./CS/SimpleData.cs) (VB: [SimpleData.vb](./VB/SimpleData.vb))
+* [Window1.xaml](./CS/Window1.xaml) (VB: [Window1.xaml.vb](./VB/Window1.xaml.vb))
+* [Window1.xaml.cs](./CS/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/Window1.xaml.vb))
+<!-- default file list end -->
 # How to automatically create columns for all fields in a grid's datasource
 
 
