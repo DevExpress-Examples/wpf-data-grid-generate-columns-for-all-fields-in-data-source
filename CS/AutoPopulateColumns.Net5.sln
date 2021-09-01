@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPopulateColumns", "AutoPopulateColumns.csproj", "{B6BB91CE-92CC-4B64-819D-DAF89F6BDBF9}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPopulateColumns", "AutoPopulateColumns.Net5.csproj", "{B6BB91CE-92CC-4B64-819D-DAF89F6BDBF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
