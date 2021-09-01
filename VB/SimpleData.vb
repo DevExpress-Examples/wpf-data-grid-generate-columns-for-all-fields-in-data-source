@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Data
+﻿Imports System.Data
 
 Namespace AutoPopulateColumns
 	Public Class SimpleData
