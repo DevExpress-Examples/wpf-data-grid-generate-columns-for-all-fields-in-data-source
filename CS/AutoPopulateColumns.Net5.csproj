@@ -22,9 +22,6 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="msmdvbanet, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-  </ItemGroup>
-  <ItemGroup>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -38,7 +35,6 @@
     <PackageReference Include="DevExpress.RichEdit.Export" Version="22.2.*-*" />
     <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.*-*" />
     <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.NavBar" Version="22.2.*-*" />
     <PackageReference Include="DevExpress.Wpf.Printing" Version="22.2.*-*" />
     <PackageReference Include="DevExpress.Wpf.Reporting" Version="22.2.*-*" />
     <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.2.*-*" />
