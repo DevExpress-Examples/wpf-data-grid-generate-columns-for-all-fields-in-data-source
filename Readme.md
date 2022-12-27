@@ -8,7 +8,7 @@
 
 This example uses the [DataControlBase.AutoGenerateColumns](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlBase.AutoGenerateColumns) property to populate the grid with columns from its data source.
 
-The example demonstrates the difference between generation modes (**AddNew**, **KeepOld**, and **RemoveOld**). Manually defined columns are highlighted with light yellow, automatically generated — do not have a background.
+The image below demonstrates the difference between generation modes (**AddNew**, **KeepOld**, and **RemoveOld**). Manually defined columns are highlighted with light yellow, automatically generated — do not have a background.
 
 ![image](https://user-images.githubusercontent.com/65009440/209556936-8470d8a6-2878-49a5-908f-f1b70d603d34.png)
 
