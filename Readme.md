@@ -3,18 +3,30 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1521)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [SimpleData.cs](./CS/SimpleData.cs) (VB: [SimpleData.vb](./VB/SimpleData.vb))
+# WPF Data Grid - Generate Columns for All Fields in a Data Source
+
+This example uses the [DataControlBase.AutoGenerateColumns](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlBase.AutoGenerateColumns) property to populate the grid with columns from its data source.
+
+The image below demonstrates the difference between generation modes (**AddNew**, **KeepOld**, and **RemoveOld**). Manually defined columns are highlighted in light yellow; automatically generated columns do not have a background color.
+
+![image](https://user-images.githubusercontent.com/65009440/209556936-8470d8a6-2878-49a5-908f-f1b70d603d34.png)
+
+## Files to Review
+
 * [Window1.xaml](./CS/Window1.xaml) (VB: [Window1.xaml](./VB/Window1.xaml))
-* [Window1.xaml.cs](./CS/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/Window1.xaml.vb))
-<!-- default file list end -->
-# How to automatically create columns for all fields in a grid's datasource
+* [Window1.xaml.cs](./CS/ViewModel.cs) (VB: [Window1.xaml.vb](./VB/ViewModel.vb))
+* [SimpleData.cs](./CS/SimpleData.cs) (VB: [SimpleData.vb](./VB/SimpleData.vb))
 
+## Documentation
 
-<p>The following example demonstrates how to automatically populate grid with all columns from its data source. This might be required, when it is necessary to show all columns from a data source, and no specific options should be defined for any column.</p><p>To accomplish this task, simply set the <strong>GridControl.AutoPopulateColumns</strong> property to <strong>True</strong>.</p><p>Starting with version<strong> 2013 vol 1</strong> the <strong>GridControl.AutoPopulateColumns</strong> property is marked as obsolete. The <strong>GridControl.AutoGenerateColumns</strong> property should be used instead.</p>
+* [DataControlBase.AutoGenerateColumns](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlBase.AutoGenerateColumns)
+* [Create Columns and Bind Them to Data Properties](https://docs.devexpress.com/WPF/6094/controls-and-libraries/data-grid/grid-view-data-layout/columns-and-card-fields/create-columns-and-bind-them-to-data-properties)
+* [Bind the Grid to a Collection of Columns](https://docs.devexpress.com/WPF/10121/controls-and-libraries/data-grid/examples/mvvm-enhancements/binding-to-a-collection-of-columns)
 
-<br/>
+## More Examples
 
-
+* [WPF Data Grid - Customize Automatically Generated Columns](https://github.com/DevExpress-Examples/how-to-customize-automatically-generated-columns-e2019)
+* [Bind the WPF Data Grid to Data](https://github.com/DevExpress-Examples/how-to-bind-wpf-grid-to-data)
+* [WPF Data Grid - Apply Data Annotations](https://github.com/DevExpress-Examples/how-to-apply-data-annotations-e2579)
+* [Bind the WPF Data Grid to a Collection of Columns Specified in a ViewModel](https://github.com/DevExpress-Examples/wpf-data-grid-bind-columns-to-viewmodel-collection)
