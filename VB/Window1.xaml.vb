@@ -1,12 +1,12 @@
-﻿Imports Microsoft.VisualBasic
 Imports System.Windows
 
 Namespace AutoPopulateColumns
 
-	Partial Public Class Window1
-		Inherits Window
-		Public Sub New()
-			InitializeComponent()
-		End Sub
-	End Class
+    Public Partial Class Window1
+        Inherits Window
+
+        Public Sub New()
+            Me.InitializeComponent()
+        End Sub
+    End Class
 End Namespace
