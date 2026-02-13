@@ -32,7 +32,7 @@ The image below demonstrates the difference between generation modes (**AddNew**
 * [WPF Data Grid - Apply Data Annotations](https://github.com/DevExpress-Examples/how-to-apply-data-annotations-e2579)
 * [Bind the WPF Data Grid to a Collection of Columns Specified in a ViewModel](https://github.com/DevExpress-Examples/wpf-data-grid-bind-columns-to-viewmodel-collection)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-generate-columns-for-all-fields-in-data-source&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-generate-columns-for-all-fields-in-data-source&~~~was_helpful=no)
 
